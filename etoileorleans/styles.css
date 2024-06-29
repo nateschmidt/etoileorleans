@@ -1,0 +1,140 @@
+:root {
+    --primary-color: #0A3C44;
+    --muted-text: #888888;
+}
+
+
+
+.social-hover {
+    color: var(--primary-color) !important;
+    background-color: var(--bs-secondary-bg) !important;
+    height: 40px;
+    width: 40px;
+}
+
+.social-hover:hover {
+    background-color: var(--bs-tertiary-bg) !important;
+}
+
+.aspect-1x1 {
+    aspect-ratio: 1 / 1;
+}
+
+.container-sm {
+    max-width: 60%;
+}
+
+.text-primary-custom {
+    color: var(--primary-color) !important;
+
+}
+
+.text-primary-custom:hover {
+    color: var(--muted-text) !important;
+
+}
+
+.text-muted-custom {
+    color: var(--muted-text) !important;
+
+}
+
+.text-muted-custom:hover {
+    color: var(--primary-color) !important;
+
+}
+
+.image-height {
+    height: 62vh;
+    overflow: hidden;
+    object-position: center;
+    object-fit: cover;
+}
+
+.text-box-height {
+    height: 62vh;
+    /* height: 100%; */
+    overflow-y: auto;
+    /* Enable vertical scrolling if content overflows */
+}
+
+.text-box-height::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Track background color */
+}
+
+.text-box-height::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    /* Thumb background color, using a CSS variable for consistency */
+}
+
+.text-box-height::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Darkens the thumb on hover for better visibility */
+}
+
+.text-box-height::-webkit-scrollbar {
+    width: 4px;
+    /* Width of the vertical scrollbar */
+    height: 8px;
+    /* Height of the horizontal scrollbar */
+}
+
+.data-image {
+    padding-left: 30px !important;
+}
+
+
+.btn-outline-primary {
+    color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    border-radius: 0% !important;
+    text-transform: uppercase;
+    border: 2px solid var(--primary-color) !important;
+
+}
+
+.btn-outline-primary:hover {
+    color: white !important;
+    background-color: var(--primary-color) !important;
+
+}
+
+@media screen and (max-width: 992px) {
+    .container-sm {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-sm {
+        max-width: 80%;
+    }
+
+
+
+    .text-box-height {
+        height: 100%;
+
+    }
+
+    .data-image {
+        padding-left: 0px !important;
+    }
+
+    .image-height {
+        height: 35vh;
+        width: 100%;
+        overflow: hidden;
+        object-position: center;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container-sm {
+        max-width: 100%;
+        padding: 0;
+    }
+
+}
