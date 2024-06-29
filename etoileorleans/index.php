@@ -83,9 +83,10 @@
           <div class="d-none d-sm-block">|</div>
 
           <a
-            href="./index.html"
+            href="https://etoile.instagift.com/"
+            target="_blank"
             class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-            >Gift Card</a
+            >Gift Cards</a
           >
           <div class="d-none d-sm-block">|</div>
 
