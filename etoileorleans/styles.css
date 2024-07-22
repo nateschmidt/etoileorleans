@@ -2,6 +2,8 @@ body, py-3 {
   font-family: "Noticia Text", serif !important;
 }
 
+.logo {max-width: 250px;}
+
 :root {
     --primary-color: #0A3C44;
     --muted-text: #888888;
