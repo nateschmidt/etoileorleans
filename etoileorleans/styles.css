@@ -1,3 +1,7 @@
+body, py-3 {
+  font-family: "Noticia Text", serif !important;
+}
+
 :root {
     --primary-color: #0A3C44;
     --muted-text: #888888;
