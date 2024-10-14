@@ -3,7 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Étoile</title>
+    <title>Étoile - Farm-to-Table Fine Dining in New Orleans</title>
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Welcome to Étoile, a farm-to-table fine dining restaurant in New Orleans' Garden District. Led by Chef Chris Dupont, our seasonal tasting menu emphasizes regional farms and food artisans, accentuated with French culinary techniques." />
+    <meta name="keywords" content="Étoile, fine dining, farm-to-table, New Orleans, Garden District, Chef Chris Dupont, tasting menu, French cuisine, Magazine Street, regional farms" />
+    <meta name="author" content="Étoile Restaurant" />
+
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Étoile - Farm-to-Table Fine Dining in New Orleans" />
+    <meta property="og:description" content="Discover Étoile, a fine dining experience in New Orleans' Garden District. Featuring a 7-course tasting menu crafted from regional farms, led by Chef Chris Dupont." />
+    <meta property="og:image" content="https://etoileorleans.com/assets/etoile-logo.png" />
+    <meta property="og:url" content="https://etoileorleans.com" />
+    <meta property="og:type" content="restaurant" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Étoile - Farm-to-Table Fine Dining in New Orleans" />
+    <meta name="twitter:description" content="Farm-to-table fine dining at Étoile in New Orleans, emphasizing regional ingredients and French culinary techniques." />
+    <meta name="twitter:image" content="https://etoileorleans.com/assets/etoile-logo.png" />
+
+    <!-- Link to Google Fonts, Bootstrap, and Custom CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,6 +34,8 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Link to Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -22,11 +43,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Link to Google Fonts (Cardo) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
 
-
+    <!-- Link to Custom CSS -->
     <link rel="stylesheet" href="./styles.css" />
   </head>
 
@@ -168,4 +191,9 @@
       </div>
     </footer>
   </body>
+</html>
+
+
+
+
 </html>
