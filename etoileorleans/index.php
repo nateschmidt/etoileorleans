@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Étoile - Farm-to-Table Fine Dining in New Orleans</title>
+    <title>Étoile - The Historic Cockerton House | 1883 New Orleans Landmark</title>
 
     <!-- Meta Tags for SEO -->
-    <meta name="description" content="Welcome to Étoile, a farm-to-table fine dining restaurant in New Orleans' Garden District. Led by Chef Chris Dupont, our seasonal tasting menu emphasizes regional farms and food artisans, accentuated with French culinary techniques." />
-    <meta name="keywords" content="Étoile, fine dining, farm-to-table, New Orleans, Garden District, Chef Chris Dupont, tasting menu, French cuisine, Magazine Street, regional farms" />
+    <meta name="description" content="Discover the historic Cockerton House, home to Étoile Restaurant. Built in 1883, this New Orleans landmark features stunning Italianate architecture with Neo-Grec details." />
+    <meta name="keywords" content="Étoile, Cockerton House, historic building, New Orleans, Italianate architecture, Magazine Street, restaurant" />
     <meta name="author" content="Étoile Restaurant" />
 
-    <!-- Social Media Meta Tags -->
-    <meta property="og:title" content="Étoile - Farm-to-Table Fine Dining in New Orleans" />
-    <meta property="og:description" content="Discover Étoile, a fine dining experience in New Orleans' Garden District. Featuring a 7-course tasting menu crafted from regional farms, led by Chef Chris Dupont." />
+    <!-- Social Media Meta Tags (Facebook & Instagram) -->
+    <meta property="og:title" content="Étoile - The Historic Cockerton House | 1883 New Orleans Landmark" />
+    <meta property="og:description" content="The Cockerton House, built in 1883, is a stunning example of Italianate architecture in New Orleans and is now home to Étoile Restaurant." />
     <meta property="og:image" content="https://etoileorleans.com/assets/etoile-logo.png" />
-    <meta property="og:url" content="https://etoileorleans.com" />
+    <meta property="og:url" content="https://etoileorleans.com/building.html" />
     <meta property="og:type" content="restaurant" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Étoile - Farm-to-Table Fine Dining in New Orleans" />
-    <meta name="twitter:description" content="Farm-to-table fine dining at Étoile in New Orleans, emphasizing regional ingredients and French culinary techniques." />
-    <meta name="twitter:image" content="https://etoileorleans.com/assets/etoile-logo.png" />
+    <!-- Link to Google Fonts (Cardo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- Link to Google Fonts, Bootstrap, and Custom CSS -->
+    <!-- Link to Bootstrap and Custom CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -34,8 +34,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-
-    <!-- Link to Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -43,15 +41,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <!-- Link to Google Fonts (Cardo) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Link to Custom CSS -->
     <link rel="stylesheet" href="./styles.css" />
-  </head>
+</head>
 
   <body
     class="py-3 d-flex flex-column justify-content-between"
@@ -71,58 +62,38 @@
           <img class="img-fluid" src="./assets/home.png" alt="" />
         </div>
 
-        <div
-          class="d-flex flex-wrap flex-column align-items-center flex-sm-row gap-2 justify-content-center text-primary-custom"
-        >
-          <a
-            href="./resturant.html"
-            class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-            >RESTAURANT</a
-          >
-
-          <div class="d-none d-sm-block">|</div>
-
-          <a
-            href="./chef.html"
-            class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-            >Chef</a
-          >
-          <div class="d-none d-sm-block">|</div>
-
-          <a
-            href="./building.html"
-            class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-            >Building</a
-          >
-          <div class="d-none d-sm-block">|</div>
-
-          <a
-            href="./index.html"
-            class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-            >Reservations</a
-          >
-          <div class="d-none d-sm-block">|</div>
-
-          <a
-            href="./menu.html"
-            class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-            >MENU</a
-          >
-          <div class="d-none d-sm-block">|</div>
-
-          <a
-            href="https://etoile.instagift.com/"
-            target="_blank"
-            class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-            >Gift Cards</a
-          >
-          <div class="d-none d-sm-block">|</div>
-
-          <a
-            href="./private-events.html"
-            class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-            >Private Events</a
-          >
+        <div class="d-flex flex-wrap flex-column align-items-center flex-sm-row gap-2 justify-content-center text-primary-custom">
+            <a href="./resturant.html" class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline">
+                Restaurant
+            </a>
+            <div class="d-none d-sm-block">|</div>
+            <a href="./chef.html" class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline">
+                Chef
+            </a>
+            <div class="d-none d-sm-block">|</div>
+            <a href="./building.html" class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline">
+                Building
+            </a>
+            <div class="d-none d-sm-block">|</div>
+            <a href="https://www.exploretock.com/etoile-restaurant-new-orleans" target="_blank" class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline">
+                Reservations
+            </a>
+            <div class="d-none d-sm-block">|</div>
+            <a href="./menu.html" class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline">
+                Menu
+            </a>
+            <div class="d-none d-sm-block">|</div>
+            <a href="https://etoile.instagift.com" class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline" tarrget="_blank">
+                Gift Cards
+            </a>
+            <div class="d-none d-sm-block">|</div>
+            <a href="./private-events.html" class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline">
+                Private Events
+            </a>
+            <div class="d-none d-sm-block">|</div>
+            <a href="./photo-gallery.html" class="link-dark text-primary-custom fw-semibold text-uppercase hover-underline">
+                Photo Gallery
+            </a>
         </div>
       </div>
     </div>
@@ -172,23 +143,21 @@
       </div>
       <div class="d-flex flex-row py-1 justify-content-center gap-2">
         <a
-          href="/facebook"
+          href="https://www.facebook.com/etoileneworleans?_rdr"
+          target="_blank"
           class="py-0 text-decoration-none d-flex justify-content-center align-items-center rounded-circle social-hover"
           ><i class="fa-brands fa-facebook-f"></i></a
-        ><a
-          href="/facebook"
-          class="py-0 d-flex text-decoration-none justify-content-center align-items-center rounded-circle social-hover"
-          ><i class="fa-brands fa-x-twitter"></i></a
-        ><a
-          href="/facebook"
-          class="py-0 text-decoration-none d-flex justify-content-center align-items-center rounded-circle social-hover"
-          ><i class="fa-brands fa-youtube"></i></a
-        ><a
-          href="/facebook"
+        >
+        <a
+          href="https://www.instagram.com/etoile_orleans/"
+          target="_blank"
           class="py-0 text-decoration-none d-flex justify-content-center align-items-center rounded-circle social-hover"
           ><i class="fa-brands fa-instagram"></i
         ></a>
       </div>
+
+
+
     </footer>
   </body>
 </html>
