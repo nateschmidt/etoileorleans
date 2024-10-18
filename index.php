@@ -116,7 +116,7 @@
         <a
           href="/"
           class="link-dark text-muted-custom fw-semibold text-uppercase hover-underline link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
-          ><small>3607 Magazine St</small></a
+          ><small>3607 Magazine Street</small></a
         >
 
         <div class="d-none d-sm-block">|</div>
